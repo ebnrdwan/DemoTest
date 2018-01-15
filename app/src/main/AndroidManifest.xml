@@ -16,15 +16,17 @@
         <activity
             android:name=".DemoChips"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".demoRealm.DemoRealmActivity"></activity>
+        <activity android:name=".demoRealm.DemoRealmActivity" />
         <activity android:name=".CustomViewsDemo.CustomViewsActivity">
+
+        </activity>
+        <activity android:name=".CustomActorLite.ActorLiteActivity" />
+        <activity android:name=".EventBusDemo.EventBusActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CustomActorLite.ActorLiteActivity"></activity>
     </application>
 
 </manifest>
