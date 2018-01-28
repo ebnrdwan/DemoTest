@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.demo.abdulrahmanrudwan.demotest.MainActivity;
 import com.demo.abdulrahmanrudwan.demotest.R;
 
 import org.greenrobot.eventbus.EventBus;

@@ -1,4 +1,4 @@
-package com.demo.abdulrahmanrudwan.demotest;
+package com.demo.abdulrahmanrudwan.demotest.DemoSpinner;
 
 import com.google.gson.annotations.SerializedName;
 

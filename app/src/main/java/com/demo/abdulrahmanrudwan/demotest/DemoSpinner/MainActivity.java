@@ -1,4 +1,4 @@
-package com.demo.abdulrahmanrudwan.demotest;
+package com.demo.abdulrahmanrudwan.demotest.DemoSpinner;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.demo.abdulrahmanrudwan.demotest.R;
+import com.demo.abdulrahmanrudwan.demotest.VolleySingleton;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 

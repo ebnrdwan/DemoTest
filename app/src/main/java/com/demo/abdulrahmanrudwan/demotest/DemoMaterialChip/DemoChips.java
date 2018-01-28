@@ -1,4 +1,4 @@
-package com.demo.abdulrahmanrudwan.demotest;
+package com.demo.abdulrahmanrudwan.demotest.DemoMaterialChip;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -13,13 +13,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.MultiAutoCompleteTextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
 import com.android.ex.chips.BaseRecipientAdapter;
 import com.android.ex.chips.RecipientEditTextView;
 import com.android.ex.chips.recipientchip.DrawableRecipientChip;
-
-import java.util.List;
+import com.demo.abdulrahmanrudwan.demotest.R;
 
 public class DemoChips extends AppCompatActivity {
 
