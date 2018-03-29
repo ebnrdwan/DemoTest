@@ -13,19 +13,19 @@ public class CustomTextView extends android.support.v7.widget.AppCompatTextView 
     public CustomTextView(Context context) {
         super(context);
 
-        setText("hey there from the custom textView ");
+        setText("hey there from the custom editText ");
     }
 
     public CustomTextView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
 
-        setText("hey there from the custom textView ");
+        setText("hey there from the custom editText ");
     }
 
     public CustomTextView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
 
-        setText("hey there from the custom textView ");
+        setText("hey there from the custom editText ");
     }
 
 }

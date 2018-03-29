@@ -16,18 +16,21 @@
         <activity
             android:name=".DemoMaterialChip.DemoChips"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".demoRealm.DemoRealmActivity" />
+        <activity android:name=".demoRealm.DemoRealmActivity">
+
+        </activity>
         <activity android:name=".CustomViewsDemo.CustomViewsActivity" />
         <activity android:name=".CustomActorLite.ActorLiteActivity" />
-        <activity android:name=".EventBusDemo.EventBusActivity"></activity>
+        <activity android:name=".EventBusDemo.EventBusActivity" />
         <activity
             android:name=".DemoAnimations.AnimationActivity"
             android:label="@string/title_activity_animation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".DemoAnimations.MainActivity2">
-
-        </activity>
-        <activity android:name=".DemoThemes.ThemesActivity">
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DemoAnimations.MainActivity2" />
+        <activity android:name=".DemoThemes.ThemesActivity" />
+        <activity android:name=".nav_silde_Demo.SlideNavDemoActivity" />
+        <activity android:name=".AdministratorDemo.AdminActivity" />
+        <activity android:name=".RxWithRetroDimo.RxRetroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -8,12 +8,55 @@
     tools:context="com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.CustomViewsActivity">
 
     <com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.CustomCompoundControl
-        android:layout_width="150dp"
         android:id="@+id/custom_control"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
         android:layout_margin="8dp"
-        android:gravity="center_horizontal"
-        android:layout_height="100dp"></com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.CustomCompoundControl>
+        android:gravity="center_horizontal"></com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.CustomCompoundControl>
+
     <com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.LengthPicker
         android:layout_width="match_parent"
-        android:layout_height="100dp"></com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.LengthPicker>
+        android:layout_height="100dp">
+
+    </com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.LengthPicker>
+
+    <android.support.design.widget.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="heey"/>
+
+    <EditText
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:id="@+id/et_test"/>
+
+    <com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.CustomEditText
+        android:layout_width="match_parent"
+        android:theme="@style/EditText"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_height="wrap_content"></com.demo.abdulrahmanrudwan.demotest.CustomViewsDemo.CustomEditText>
+
+    <com.alexzh.circleimageview.CircleImageView
+        android:id="@+id/circle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:clickable="true"
+        android:src="@drawable/asset_2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        app:view_backgroundColor="@color/colorPrimary"
+        app:view_shadowRadius="4dp"
+        app:view_shadowDx="2dp"
+        app:view_shadowDy="0dp"
+        app:view_shadowColor="@color/colorAccent"
+        app:view_borderWidth="4dp"
+        app:view_selectedColor="@color/colorPrimaryDark"
+        app:view_borderColor="@android:color/darker_gray"/>
+
+
 </LinearLayout>

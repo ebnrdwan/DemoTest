@@ -24,6 +24,7 @@ public class LengthPicker extends LinearLayout implements View.OnClickListener{
   private int mNumInches = 0;
   private OnChangeListener mListener = null;
 
+
   public LengthPicker(Context context) {
     super(context);
     init();
@@ -41,7 +42,7 @@ public class LengthPicker extends LinearLayout implements View.OnClickListener{
     mPlusButton = findViewById(R.id.plus_button);
     mTextView = (TextView) findViewById(R.id.text);
     mMinusButton = findViewById(R.id.minus_button);
-
+    setOrientation(HORIZONTAL);
     updateControls();
 
     OnClickListener listener = new OnClickListener() {
